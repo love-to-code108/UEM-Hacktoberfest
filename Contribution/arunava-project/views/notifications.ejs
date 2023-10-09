@@ -1,0 +1,5 @@
+<% if(messages && messages.error && messages.error.length > 0)  { %>
+    <% for(var i=0; i< messages.error.length; i++) { %>
+            <li> <%= messages.error[i] %></li>
+    <% } %>
+  <% } %>
